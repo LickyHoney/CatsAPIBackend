@@ -1,28 +1,18 @@
-import { Sort } from "@material-ui/icons";
 import axios from "axios";
+
 const baseUrl = "http://localhost:3020/cats";
-const baseSortUrl = "http://localhost:3020/cats?_sort=[name]&_order[DESC]";
 
-let map = Map();
-
+// To fetch all cats.
 const getAll = () => {
-  return axios.get(baseUrl).then((res) => console.log(res));
+  return axios.get(baseUrl);
 };
 
+//To fetch cat by id.
 const getCat = (id) => {
-  return axios
-    .get(`${baseUrl}/${id}`)
-    .then((response) => response.json())
-    .then((res) => console.log(res));
+  return axios.get(`${baseUrl}/${id}`);
 };
 
-const getCatSort = (name, DESC) => {
-  return axios
-    .get(baseSortUrl, { params: { Sort: name, Orde: DESC } })
-
-    .then((res) => console.log(res));
-};
-
+//To filter cat by name.
 const getCatName = (name) => {
   return axios
     .get(`${baseUrl}/${name}`)
@@ -30,15 +20,14 @@ const getCatName = (name) => {
     .then((json) => console.log(json));
 };
 
+// To add a new cat.
 const AddCat = (newObject) => {
-  return axios.post(baseUrl, newObject).then((res) => console.log(res));
+  return axios.post(baseUrl, newObject);
 };
 
+//To delete a cat
 const deleteCat = (id) => {
-  return axios
-    .delete(`${baseUrl}/${id}`)
-    .then((response) => response.json())
-    .then((res) => console.log(res));
+  return axios.delete(`${baseUrl}/${id}`);
 };
 
 export default {
@@ -46,6 +35,5 @@ export default {
   getCat: getCat,
   AddCat: AddCat,
   deleteCat: deleteCat,
-  getCatName: getCatName,
-  getCatSort: getCatSort
+  getCatName: getCatName
 };
