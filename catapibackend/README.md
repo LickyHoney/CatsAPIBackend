@@ -54,6 +54,14 @@ npm run build
 6.To Visit App:
 http://localhost:3000
 
+## API End Points
+
+1.GET /cats
+2.GET /cats/{id}
+3.GET /cats?name={name}
+4.DELETE /cats/{id}
+5.POST /cats
+
 # Note
 
 JSON-Server is running on port 3020 and the same port has been used in the URL in CatAPIService file in services folder. JSON file cats.json is in the public folder and JSON Server command "json-server -p3020 watch public/cats.json" is set in server script in package.json file and JSON Server runs with script command "npm run server".
