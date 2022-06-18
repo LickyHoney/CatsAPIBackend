@@ -1,8 +1,6 @@
-import { TextField, IconButton } from "@material-ui/core";
+//Renders the Search Component
 
-import { SearchOutlined } from "@material-ui/icons";
-
-function Search({ searchfield, searchChange, searchClick }) {
+function Search({ searchChange, searchClick }) {
   return (
     <div className="search">
       <div className="pa2">
@@ -10,7 +8,7 @@ function Search({ searchfield, searchChange, searchClick }) {
           fullWidth
           id="standard-bare"
           variant="outlined"
-          placeholder="Search breeds..."
+          placeholder="Search Cats..."
           color="'primary'"
           onChange={searchChange}
         />

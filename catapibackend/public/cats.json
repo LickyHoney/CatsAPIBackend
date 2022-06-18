@@ -1,442 +1,394 @@
 {
-    "cats": [
-      {
-        "id": "acur",
-        "name": "American Curl",
-        "breed_group": "Affectionate, Curious, Intelligent, Interactive, Lively, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "asho",
-        "name": "American Shorthair",
-        "breed_group": "Active, Curious, Easy Going, Playful, Calm",
-        "weight": ""
-      },
-      {
-        "id": "amis",
-        "name": "Australian Mist",
-        "breed_group": "Lively, Social, Fun-loving, Relaxed, Affectionate",
-        "weight": ""
-      },
-      {
-        "id": "bali",
-        "name": "Balinese",
-        "breed_group": "Affectionate, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "bamb",
-        "name": "Bambino",
-        "breed_group": "Affectionate, Lively, Friendly, Intelligent",
-        "weight": ""
-      },
-      {
-        "id": "beng",
-        "name": "Bengal",
-        "breed_group": "Alert, Agile, Energetic, Demanding, Intelligent",
-        "weight": ""
-      },
-      {
-        "id": "birm",
-        "name": "Birman",
-        "breed_group": "Affectionate, Active, Gentle, Social",
-        "weight": ""
-      },
-      {
-        "id": "bomb",
-        "name": "Bombay",
-        "breed_group": "Affectionate, Dependent, Gentle, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "bslo",
-        "name": "British Longhair",
-        "breed_group": "Affectionate, Easy Going, Independent, Intelligent, Loyal, Social",
-        "weight": ""
-      },
-      {
-        "id": "bsho",
-        "name": "British Shorthair",
-        "breed_group": "Affectionate, Easy Going, Gentle, Loyal, Patient, calm",
-        "weight": ""
-      },
-      {
-        "id": "bure",
-        "name": "Burmese",
-        "breed_group": "Curious, Intelligent, Gentle, Social, Interactive, Playful, Lively",
-        "weight": ""
-      },
-      {
-        "id": "buri",
-        "name": "Burmilla",
-        "breed_group": "Easy Going, Friendly, Intelligent, Lively, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "cspa",
-        "name": "California Spangled",
-        "breed_group": "Affectionate, Curious, Intelligent, Loyal, Social",
-        "weight": ""
-      },
-      {
-        "id": "ctif",
-        "name": "Chantilly-Tiffany",
-        "breed_group": "Affectionate, Demanding, Interactive, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "char",
-        "name": "Chartreux",
-        "breed_group": "Affectionate, Loyal, Intelligent, Social, Lively, Playful",
-        "weight": ""
-      },
-      {
-        "id": "chau",
-        "name": "Chausie",
-        "breed_group": "Affectionate, Intelligent, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "chee",
-        "name": "Cheetoh",
-        "breed_group": "Affectionate, Gentle, Intelligent, Social",
-        "weight": ""
-      },
-      {
-        "id": "csho",
-        "name": "Colorpoint Shorthair",
-        "breed_group": "Affectionate, Intelligent, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "crex",
-        "name": "Cornish Rex",
-        "breed_group": "Affectionate, Intelligent, Active, Curious, Playful",
-        "weight": ""
-      },
-      {
-        "id": "cymr",
-        "name": "Cymric",
-        "breed_group": "Gentle, Loyal, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "cypr",
-        "name": "Cyprus",
-        "breed_group": "Affectionate, Social",
-        "weight": ""
-      },
-      {
-        "id": "drex",
-        "name": "Devon Rex",
-        "breed_group": "Highly interactive, Mischievous, Loyal, Social, Playful",
-        "weight": ""
-      },
-      {
-        "id": "dons",
-        "name": "Donskoy",
-        "breed_group": "Playful, affectionate, loyal, social",
-        "weight": ""
-      },
-      {
-        "id": "lihu",
-        "name": "Dragon Li",
-        "breed_group": "Intelligent, Friendly, Gentle, Loving, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "emau",
-        "name": "Egyptian Mau",
-        "breed_group": "Agile, Dependent, Gentle, Intelligent, Lively, Loyal, Playful",
-        "weight": ""
-      },
-      {
-        "id": "ebur",
-        "name": "European Burmese",
-        "breed_group": "Sweet, Affectionate, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "esho",
-        "name": "Exotic Shorthair",
-        "breed_group": "Affectionate, Sweet, Loyal, Quiet, Peaceful",
-        "weight": ""
-      },
-      {
-        "id": "hbro",
-        "name": "Havana Brown",
-        "breed_group": "Affectionate, Curious, Demanding, Friendly, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "hima",
-        "name": "Himalayan",
-        "breed_group": "Dependent, Gentle, Intelligent, Quiet, Social",
-        "weight": ""
-      },
-      {
-        "id": "jbob",
-        "name": "Japanese Bobtail",
-        "breed_group": "Active, Agile, Clever, Easy Going, Intelligent, Lively, Loyal, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "java",
-        "name": "Javanese",
-        "breed_group": "Active, Devoted, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "khao",
-        "name": "Khao Manee",
-        "breed_group": "Calm, Relaxed, Talkative, Playful, Warm",
-        "weight": ""
-      },
-      {
-        "id": "kora",
-        "name": "Korat",
-        "breed_group": "Active, Loyal, highly intelligent, Expressive, Trainable",
-        "weight": ""
-      },
-      {
-        "id": "kuri",
-        "name": "Kurilian",
-        "breed_group": "Independent, highly intelligent, clever, inquisitive, sociable, playful, trainable",
-        "weight": ""
-      },
-      {
-        "id": "lape",
-        "name": "LaPerm",
-        "breed_group": "Affectionate, Friendly, Gentle, Intelligent, Playful, Quiet",
-        "weight": ""
-      },
-      {
-        "id": "mcoo",
-        "name": "Maine Coon",
-        "breed_group": "Adaptable, Intelligent, Loving, Gentle, Independent",
-        "weight": ""
-      },
-      {
-        "id": "mala",
-        "name": "Malayan",
-        "breed_group": "Affectionate, Interactive, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "manx",
-        "name": "Manx",
-        "breed_group": "Easy Going, Intelligent, Loyal, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "munc",
-        "name": "Munchkin",
-        "breed_group": "Agile, Easy Going, Intelligent, Playful",
-        "weight": ""
-      },
-      {
-        "id": "nebe",
-        "name": "Nebelung",
-        "breed_group": "Gentle, Quiet, Shy, Playful",
-        "weight": ""
-      },
-      {
-        "id": "norw",
-        "name": "Norwegian Forest Cat",
-        "breed_group": "Sweet, Active, Intelligent, Social, Playful, Lively, Curious",
-        "weight": ""
-      },
-      {
-        "id": "ocic",
-        "name": "Ocicat",
-        "breed_group": "Active, Agile, Curious, Demanding, Friendly, Gentle, Lively, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "orie",
-        "name": "Oriental",
-        "breed_group": "Energetic, Affectionate, Intelligent, Social, Playful, Curious",
-        "weight": ""
-      },
-      {
-        "id": "pers",
-        "name": "Persian",
-        "breed_group": "Affectionate, loyal, Sedate, Quiet",
-        "weight": ""
-      },
-      {
-        "id": "pixi",
-        "name": "Pixie-bob",
-        "breed_group": "Affectionate, Social, Intelligent, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "raga",
-        "name": "Ragamuffin",
-        "breed_group": "Affectionate, Friendly, Gentle, Calm",
-        "weight": ""
-      },
-      {
-        "id": "ragd",
-        "name": "Ragdoll",
-        "breed_group": "Affectionate, Friendly, Gentle, Quiet, Easygoing",
-        "weight": ""
-      },
-      {
-        "id": "rblu",
-        "name": "Russian Blue",
-        "breed_group": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet",
-        "weight": ""
-      },
-      {
-        "id": "sava",
-        "name": "Savannah",
-        "breed_group": "Curious, Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate",
-        "weight": ""
-      },
-      {
-        "id": "sfol",
-        "name": "Scottish Fold",
-        "breed_group": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
-        "weight": ""
-      },
-      {
-        "id": "srex",
-        "name": "Selkirk Rex",
-        "breed_group": "Active, Affectionate, Dependent, Gentle, Patient, Playful, Quiet, Social",
-        "weight": ""
-      },
-      {
-        "id": "siam",
-        "name": "Siamese",
-        "breed_group": "Active, Agile, Clever, Sociable, Loving, Energetic",
-        "weight": ""
-      },
-      {
-        "id": "sibe",
-        "name": "Siberian",
-        "breed_group": "Curious, Intelligent, Loyal, Sweet, Agile, Playful, Affectionate",
-        "weight": ""
-      },
-      {
-        "id": "sing",
-        "name": "Singapura",
-        "breed_group": "Affectionate, Curious, Easy Going, Intelligent, Interactive, Lively, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "snow",
-        "name": "Snowshoe",
-        "breed_group": "Affectionate, Social, Intelligent, Sweet-tempered",
-        "weight": ""
-      },
-      {
-        "id": "soma",
-        "name": "Somali",
-        "breed_group": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal",
-        "weight": ""
-      },
-      {
-        "id": "sphy",
-        "name": "Sphynx",
-        "breed_group": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
-        "weight": ""
-      },
-      {
-        "id": "tonk",
-        "name": "Tonkinese",
-        "breed_group": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
-        "weight": ""
-      },
-      {
-        "id": "toyg",
-        "name": "Toyger",
-        "breed_group": "Playful, Social, Intelligent",
-        "weight": ""
-      },
-      {
-        "id": "tang",
-        "name": "Turkish Angora",
-        "breed_group": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social",
-        "weight": ""
-      },
-      {
-        "id": "tvan",
-        "name": "Turkish Van",
-        "breed_group": "Agile, Intelligent, Loyal, Playful, Energetic",
-        "weight": ""
-      },
-      {
-        "id": "ycho",
-        "name": "York Chocolate",
-        "breed_group": "Playful, Social, Intelligent, Curious, Friendly",
-        "weight": ""
-      },
-      {
-        "id": "3",
-        "name": "newcat",
-        "weight": "34",
-        "breed_group": "sdf"
-      },
-      {
-        "id": "5",
-        "name": "newcat",
-        "weight": "54",
-        "breed_group": "sads"
-      },
-      {
-        "name": "aa",
-        "weight": "45",
-        "breed_group": "dfg",
-        "id": "JLQCUsy"
-      },
-      {
-        "name": "",
-        "weight": "",
-        "breed_group": "",
-        "id": "NoDc9XC"
-      },
-      {
-        "name": "",
-        "weight": "",
-        "breed_group": "",
-        "id": "EFrBwe7"
-      },
-      {
-        "name": "",
-        "weight": "",
-        "breed_group": "",
-        "id": "ra9F2uT"
-      },
-      {
-        "name": "",
-        "weight": "",
-        "breed_group": "",
-        "id": "CdjGlUU"
-      },
-      {
-        "id": "american",
-        "name": "american curl",
-        "breed_group": "Active, Energetic, Independent, Intelligent, Gentle",
-        "weight": "34"
-      },
-      {
-        "id": "american2",
-        "name": "american curl2",
-        "breed_group": "Active, Energetic, Independent, Intelligent, Gentle",
-        "weight": "35"
-      },
-      {
-        "id": "american3",
-        "name": "american curl3",
-        "breed_group": "Active, Energetic, Independent, Intelligent, Gentle",
-        "weight": "36"
-      },
-      {
-        "name": "asdfds",
-        "weight": "Sdfs",
-        "breed_group": "Sdf",
-        "id": "xd4LkKU"
-      }
-    ]
-  }
+  "cats": [
+    {
+      "id": "acur",
+      "name": "American Curl",
+      "breed_group": "Affectionate, Curious, Intelligent, Interactive, Lively, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "bali",
+      "name": "Balinese",
+      "breed_group": "Affectionate, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "bamb",
+      "name": "Bambino",
+      "breed_group": "Affectionate, Lively, Friendly, Intelligent",
+      "weight": ""
+    },
+    {
+      "id": "beng",
+      "name": "Bengal",
+      "breed_group": "Alert, Agile, Energetic, Demanding, Intelligent",
+      "weight": ""
+    },
+    {
+      "id": "birm",
+      "name": "Birman",
+      "breed_group": "Affectionate, Active, Gentle, Social",
+      "weight": ""
+    },
+    {
+      "id": "bomb",
+      "name": "Bombay",
+      "breed_group": "Affectionate, Dependent, Gentle, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "bslo",
+      "name": "British Longhair",
+      "breed_group": "Affectionate, Easy Going, Independent, Intelligent, Loyal, Social",
+      "weight": ""
+    },
+    {
+      "id": "bsho",
+      "name": "British Shorthair",
+      "breed_group": "Affectionate, Easy Going, Gentle, Loyal, Patient, calm",
+      "weight": ""
+    },
+    {
+      "id": "bure",
+      "name": "Burmese",
+      "breed_group": "Curious, Intelligent, Gentle, Social, Interactive, Playful, Lively",
+      "weight": ""
+    },
+    {
+      "id": "buri",
+      "name": "Burmilla",
+      "breed_group": "Easy Going, Friendly, Intelligent, Lively, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "cspa",
+      "name": "California Spangled",
+      "breed_group": "Affectionate, Curious, Intelligent, Loyal, Social",
+      "weight": ""
+    },
+    {
+      "id": "ctif",
+      "name": "Chantilly-Tiffany",
+      "breed_group": "Affectionate, Demanding, Interactive, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "char",
+      "name": "Chartreux",
+      "breed_group": "Affectionate, Loyal, Intelligent, Social, Lively, Playful",
+      "weight": ""
+    },
+    {
+      "id": "chau",
+      "name": "Chausie",
+      "breed_group": "Affectionate, Intelligent, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "chee",
+      "name": "Cheetoh",
+      "breed_group": "Affectionate, Gentle, Intelligent, Social",
+      "weight": ""
+    },
+    {
+      "id": "csho",
+      "name": "Colorpoint Shorthair",
+      "breed_group": "Affectionate, Intelligent, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "crex",
+      "name": "Cornish Rex",
+      "breed_group": "Affectionate, Intelligent, Active, Curious, Playful",
+      "weight": ""
+    },
+    {
+      "id": "cymr",
+      "name": "Cymric",
+      "breed_group": "Gentle, Loyal, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "cypr",
+      "name": "Cyprus",
+      "breed_group": "Affectionate, Social",
+      "weight": ""
+    },
+    {
+      "id": "drex",
+      "name": "Devon Rex",
+      "breed_group": "Highly interactive, Mischievous, Loyal, Social, Playful",
+      "weight": ""
+    },
+    {
+      "id": "dons",
+      "name": "Donskoy",
+      "breed_group": "Playful, affectionate, loyal, social",
+      "weight": ""
+    },
+    {
+      "id": "lihu",
+      "name": "Dragon Li",
+      "breed_group": "Intelligent, Friendly, Gentle, Loving, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "emau",
+      "name": "Egyptian Mau",
+      "breed_group": "Agile, Dependent, Gentle, Intelligent, Lively, Loyal, Playful",
+      "weight": ""
+    },
+    {
+      "id": "ebur",
+      "name": "European Burmese",
+      "breed_group": "Sweet, Affectionate, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "esho",
+      "name": "Exotic Shorthair",
+      "breed_group": "Affectionate, Sweet, Loyal, Quiet, Peaceful",
+      "weight": ""
+    },
+    {
+      "id": "hbro",
+      "name": "Havana Brown",
+      "breed_group": "Affectionate, Curious, Demanding, Friendly, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "hima",
+      "name": "Himalayan",
+      "breed_group": "Dependent, Gentle, Intelligent, Quiet, Social",
+      "weight": ""
+    },
+    {
+      "id": "jbob",
+      "name": "Japanese Bobtail",
+      "breed_group": "Active, Agile, Clever, Easy Going, Intelligent, Lively, Loyal, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "java",
+      "name": "Javanese",
+      "breed_group": "Active, Devoted, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "khao",
+      "name": "Khao Manee",
+      "breed_group": "Calm, Relaxed, Talkative, Playful, Warm",
+      "weight": ""
+    },
+    {
+      "id": "kora",
+      "name": "Korat",
+      "breed_group": "Active, Loyal, highly intelligent, Expressive, Trainable",
+      "weight": ""
+    },
+    {
+      "id": "kuri",
+      "name": "Kurilian",
+      "breed_group": "Independent, highly intelligent, clever, inquisitive, sociable, playful, trainable",
+      "weight": ""
+    },
+    {
+      "id": "lape",
+      "name": "LaPerm",
+      "breed_group": "Affectionate, Friendly, Gentle, Intelligent, Playful, Quiet",
+      "weight": ""
+    },
+    {
+      "id": "mcoo",
+      "name": "Maine Coon",
+      "breed_group": "Adaptable, Intelligent, Loving, Gentle, Independent",
+      "weight": ""
+    },
+    {
+      "id": "mala",
+      "name": "Malayan",
+      "breed_group": "Affectionate, Interactive, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "manx",
+      "name": "Manx",
+      "breed_group": "Easy Going, Intelligent, Loyal, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "munc",
+      "name": "Munchkin",
+      "breed_group": "Agile, Easy Going, Intelligent, Playful",
+      "weight": ""
+    },
+    {
+      "id": "nebe",
+      "name": "Nebelung",
+      "breed_group": "Gentle, Quiet, Shy, Playful",
+      "weight": ""
+    },
+    {
+      "id": "norw",
+      "name": "Norwegian Forest Cat",
+      "breed_group": "Sweet, Active, Intelligent, Social, Playful, Lively, Curious",
+      "weight": ""
+    },
+    {
+      "id": "ocic",
+      "name": "Ocicat",
+      "breed_group": "Active, Agile, Curious, Demanding, Friendly, Gentle, Lively, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "orie",
+      "name": "Oriental",
+      "breed_group": "Energetic, Affectionate, Intelligent, Social, Playful, Curious",
+      "weight": ""
+    },
+    {
+      "id": "pers",
+      "name": "Persian",
+      "breed_group": "Affectionate, loyal, Sedate, Quiet",
+      "weight": ""
+    },
+    {
+      "id": "pixi",
+      "name": "Pixie-bob",
+      "breed_group": "Affectionate, Social, Intelligent, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "raga",
+      "name": "Ragamuffin",
+      "breed_group": "Affectionate, Friendly, Gentle, Calm",
+      "weight": ""
+    },
+    {
+      "id": "ragd",
+      "name": "Ragdoll",
+      "breed_group": "Affectionate, Friendly, Gentle, Quiet, Easygoing",
+      "weight": ""
+    },
+    {
+      "id": "rblu",
+      "name": "Russian Blue",
+      "breed_group": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet",
+      "weight": ""
+    },
+    {
+      "id": "sava",
+      "name": "Savannah",
+      "breed_group": "Curious, Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate",
+      "weight": ""
+    },
+    {
+      "id": "sfol",
+      "name": "Scottish Fold",
+      "breed_group": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
+      "weight": ""
+    },
+    {
+      "id": "srex",
+      "name": "Selkirk Rex",
+      "breed_group": "Active, Affectionate, Dependent, Gentle, Patient, Playful, Quiet, Social",
+      "weight": ""
+    },
+    {
+      "id": "siam",
+      "name": "Siamese",
+      "breed_group": "Active, Agile, Clever, Sociable, Loving, Energetic",
+      "weight": ""
+    },
+    {
+      "id": "sibe",
+      "name": "Siberian",
+      "breed_group": "Curious, Intelligent, Loyal, Sweet, Agile, Playful, Affectionate",
+      "weight": ""
+    },
+    {
+      "id": "sing",
+      "name": "Singapura",
+      "breed_group": "Affectionate, Curious, Easy Going, Intelligent, Interactive, Lively, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "snow",
+      "name": "Snowshoe",
+      "breed_group": "Affectionate, Social, Intelligent, Sweet-tempered",
+      "weight": ""
+    },
+    {
+      "id": "soma",
+      "name": "Somali",
+      "breed_group": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal",
+      "weight": ""
+    },
+    {
+      "id": "sphy",
+      "name": "Sphynx",
+      "breed_group": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
+      "weight": ""
+    },
+    {
+      "id": "tonk",
+      "name": "Tonkinese",
+      "breed_group": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
+      "weight": ""
+    },
+    {
+      "id": "toyg",
+      "name": "Toyger",
+      "breed_group": "Playful, Social, Intelligent",
+      "weight": ""
+    },
+    {
+      "id": "tang",
+      "name": "Turkish Angora",
+      "breed_group": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social",
+      "weight": ""
+    },
+    {
+      "id": "tvan",
+      "name": "Turkish Van",
+      "breed_group": "Agile, Intelligent, Loyal, Playful, Energetic",
+      "weight": ""
+    },
+    {
+      "id": "ycho",
+      "name": "York Chocolate",
+      "breed_group": "Playful, Social, Intelligent, Curious, Friendly",
+      "weight": ""
+    },
+    {
+      "id": "3",
+      "name": "newcat",
+      "weight": "34",
+      "breed_group": "sdf"
+    },
+    {
+      "id": "5",
+      "name": "newcat",
+      "weight": "54",
+      "breed_group": "sads"
+    },
+    {
+      "name": "aa",
+      "weight": "45",
+      "breed_group": "dfg",
+      "id": "JLQCUsy"
+    },
+    {
+      "id": "american",
+      "name": "american curl",
+      "breed_group": "Active, Energetic, Independent, Intelligent, Gentle",
+      "weight": "34"
+    },
+    {
+      "name": "american curl3",
+      "breed_group": "Active, Friendly, Independent, Intelligent, Gentle",
+      "weight": "36",
+      "id": "elpOIXQ"
+    }
+  ]
+}

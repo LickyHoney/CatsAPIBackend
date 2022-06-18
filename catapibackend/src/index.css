@@ -23,7 +23,7 @@ code {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .pa2 input {
@@ -39,14 +39,6 @@ code {
   margin: 20px;
 }
 
-.ImageListItemBar title {
-  font-size: 5rem;
-}
-
-img {
-  overflow: hidden;
-}
-
 .flex {
   display: inline-flex;
 }
@@ -55,7 +47,8 @@ img {
   list-style: none;
   outline: none;
   width: 100px;
-  margin-left: 360px;
+  margin-left: 500px;
+  margin-top: 50px;
 }
 
 .pagination > .active > a {
@@ -228,6 +221,10 @@ p {
 .card {
   display: inline-flex;
 }
+.card-body p {
+  text-align: left;
+  font-weight: 600;
+}
 .card-body {
   background-color: azure;
 }
@@ -253,6 +250,7 @@ p {
   justify-content: center;
   margin-left: 0.5rem;
   color: #f3f3f3;
+  margin-top: -3rem;
 }
 .flex-container {
   display: flex;
@@ -275,9 +273,23 @@ table {
   table-layout: fixed;
 }
 
+th:nth-child(2) {
+  width: 700px;
+}
+
 table caption {
   font-size: 1.5em;
   margin: 0.5em 0 0.75em;
+}
+
+label {
+  color: #b4886b;
+  font-weight: bold;
+  width: 130px;
+}
+
+input {
+  width: auto;
 }
 
 table tr {
@@ -286,10 +298,14 @@ table tr {
   padding: 0.35em;
 }
 
-table th,
+table th {
+  padding: 0.625em;
+  text-align: left;
+}
+
 table td {
   padding: 0.625em;
-  text-align: center;
+  text-align: left;
 }
 
 table th {
@@ -329,6 +345,10 @@ table th {
     display: block;
     font-size: 0.8em;
     text-align: right;
+  }
+
+  p {
+    text-align: left;
   }
 
   table td::before {

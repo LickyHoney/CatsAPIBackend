@@ -6,13 +6,14 @@ import service from "./services/CatAPIService";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { v4 as uuidv4 } from "uuid";
 import { Button, Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-const CardList = (props) => {
+const CatList = (props) => {
   // Declarations
   const [cats, setCats] = useState([]);
   const [search, setSearch] = useState("");
   const [pageCount, setPageCount] = useState(0);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(8);
   const [offset, setOffset] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ const CardList = (props) => {
   const handleViewCat = (id) => {
     service.getCat(`${id}`).then((res) => {
       console.log(res);
-      setCats([res.data]);
+      setDetail([res.data]);
     });
   };
 
@@ -88,6 +89,7 @@ const CardList = (props) => {
 
   //To delete a cat
   const handleDelete = (id) => {
+    debugger;
     service.deleteCat(`${id}`).then((res) => {
       console.log(res);
       setCats(
@@ -95,6 +97,7 @@ const CardList = (props) => {
           return cat.id !== id;
         })
       );
+      if (res.data.status === 200) alert("Success!");
     });
   };
 
@@ -212,29 +215,29 @@ const CardList = (props) => {
                 Name:
                 <input type="text" name="name" onChange={handleNameChange} />
               </label>
+              <br />
               <label>
                 Weight:
                 <input type="text" name="name" onChange={handleWeightChange} />
               </label>
+              <br />
               <label>
-                Breed:
+                Breed Group:
                 <input type="text" name="name" onChange={handleBreedChange} />
               </label>
-
-              <button
-                type="submit"
-                onClick={() => {
-                  handleSubmit();
-                }}
-              >
-                Add
-              </button>
+              <br />
             </form>
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={closeAddModal}>
-            Close
+          <Button
+            variant="secondary"
+            onClick={() => {
+              handleSubmit();
+              closeAddModal();
+            }}
+          >
+            Add
           </Button>
         </Modal.Footer>
       </Modal>
@@ -251,17 +254,17 @@ const CardList = (props) => {
                   style={{ color: "crimpson", backgroundColor: "burlywood" }}
                 >
                   <th scope="col">Name</th>
-                  <th scope="col">Breed</th>
+                  <th scope="col">Breed Group</th>
                   <th scope="col">Weight</th>
                   <th scope="col">View</th>
                   <th scope="col">Delete a Cat</th>
                 </tr>
               </thead>
-              {cats.map((cat) => (
+              {cats.map((cat, i) => (
                 <tbody>
-                  <tr>
+                  <tr key={cat.id}>
                     <td data-label="Name">{cat.name}</td>
-                    <td data-label="Breed">{cat.breed_group}</td>
+                    <td data-label="Breed Group">{cat.breed_group}</td>
                     <td data-label="Weight">{cat.weight}</td>
                     <td data-label="View">
                       <button
@@ -273,25 +276,6 @@ const CardList = (props) => {
                       >
                         View Cat
                       </button>
-                      <Modal show={isOpen} onHide={closeModal}>
-                        <Modal.Header closeButton>
-                          <Modal.Title>{cat.name}</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <div className="card">
-                            <div className="card-body">
-                              <p>Name: {cat.name}</p>
-                              <p>Breed: {cat.breed_group}</p>
-                              <p>Weight: {cat.weight}</p>
-                            </div>
-                          </div>
-                        </Modal.Body>
-                        <Modal.Footer>
-                          <Button variant="secondary" onClick={closeModal}>
-                            Close
-                          </Button>
-                        </Modal.Footer>
-                      </Modal>
                     </td>
                     <td>
                       <button
@@ -307,6 +291,26 @@ const CardList = (props) => {
                 </tbody>
               ))}
             </table>
+            {detail.map((detail) => (
+              <Modal show={isOpen} onHide={closeModal}>
+                <Modal.Header closeButton>
+                  <Modal.Title>{detail.name}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <div className="card">
+                    <div className="card-body">
+                      <p>Breed Group: {detail.breed_group}</p>
+                      <p>Weight: {detail.weight}</p>
+                    </div>
+                  </div>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={closeModal}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+            ))}
           </div>
         </>
       )}
@@ -317,4 +321,4 @@ const CardList = (props) => {
   );
 };
 
-export default CardList;
+export default CatList;
