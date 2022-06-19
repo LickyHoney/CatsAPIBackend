@@ -68,9 +68,9 @@ JSON-Server is running on port 3020 and the same port has been used in the URL i
 ## View Demo
 
 Application is deployed in Netlify and below is the link:
-**Please run the server with command "npm run server" to work with Netlify link.**
-
 URL: https://benevolent-granita-cdc3a0.netlify.app
+
+**Please run the server with command "npm run server" to work with Netlify link.**
 
 ## Reflection
 
