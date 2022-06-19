@@ -65,7 +65,7 @@ http://localhost:3000
 # Note
 
 JSON-Server is running on port 3020 and the same port has been used in the URL in CatAPIService file in services folder. JSON file cats.json is in the public folder and JSON Server command "json-server -p3020 watch public/cats.json" is set in server script in package.json file and JSON Server runs with script command "npm run server".
-** Please run the server with command "npm run server" to work with Netlify link. **
+**Please run the server with command "npm run server" to work with Netlify link.**
 
 ## View Demo
 
