@@ -55,12 +55,11 @@ npm run build
 http://localhost:3000
 
 ## API End Points
-
-1.GET /cats
-2.GET /cats/{id}
-3.GET /cats?name={name}
-4.DELETE /cats/{id}
-5.POST /cats
+    To get all cats         -   GET /cats
+    To get cat by id        -   GET /cats/{id}
+    To get a cat by name    -   GET /cats?name={name}
+    To delete a cat         -   DELETE /cats/{id}
+    To create a cat         -   POST /cats
 
 # Note
 
